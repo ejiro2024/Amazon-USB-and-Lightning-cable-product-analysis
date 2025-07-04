@@ -2,6 +2,21 @@
 
 # 📊 USB & Lightning Cables Product Analysis
 
+## Table of Content
+
+- [Introduction](#Introduction)
+- [Project Overview](#Project-Overview)
+- [Data source](#Data-source)
+- [Problem Statement](#Problem-Statement)
+- [Tools used](#Tools-used)
+- [Data Analysis](#Data-Analysis)
+- [Visualisations](#Visualisations)
+- [Key Insights](Key-Insights)
+- [Visualisations](#Visualisations)
+- [Recommendations](#Recommendations)
+- [Conclusion](#Conclusion)
+
+  
 ## 🧾 Introduction
 This project focuses on analyzing Amazon product data for various USB and Lightning charging cables. The goal is to derive insights into pricing strategies, customer preferences, product performance, and user reviews to inform decision-making for manufacturers, marketers, or retailers.
 
@@ -30,7 +45,7 @@ This analysis includes:
 
   
 
-## 📊 Data Analysis Process
+## 📊 Data Analysis 
 
 ### 1. 📦 Data Cleaning
 - Removed currency symbols (`₹`) and commas in numeric fields.
@@ -86,6 +101,7 @@ Identified categories offering highest individual discounts.
 #### Q14: Top 5 Products by Weighted Score
 Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity.
 
+## Visualisations
 
 ## 🔍 Key Insights
 
