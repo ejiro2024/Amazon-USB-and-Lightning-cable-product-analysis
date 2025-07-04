@@ -1,5 +1,5 @@
 # USB-and-Lightning-cable-product-analysis
-
+![amazo-us](amazo-us.jpg)
 # 📊 USB & Lightning Cables Product Analysis
 
 ## Table of Content
