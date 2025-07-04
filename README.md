@@ -49,6 +49,7 @@ This analysis includes:
 - Removed blanks
 - Checked for duplicate values
 - Removed redundant columns
+- Converted the dataset to a table
 
   
 ### 2. 📐 Calculated Columns
