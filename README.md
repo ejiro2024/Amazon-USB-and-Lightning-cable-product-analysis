@@ -46,10 +46,11 @@ This analysis includes:
 ## 📊 Data Analysis 
 
 ### 1. 📦 Data Cleaning
-- Removed currency symbols (`₹`) and commas in numeric fields.
-- Converted percentage and prices to proper numeric formats.
-- Parsed category hierarchy and flattened product features.
+- Removed blanks
+- Checked for duplicate values
+- Removed redundant columns
 
+  
 ### 2. 📐 Calculated Columns
 - `potential_revenue = actual_price * rating_count`
 - `discount_bucket` → Created ranges (e.g., `<50%`, `50–69%`, `70%+`)
