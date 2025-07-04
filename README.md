@@ -7,12 +7,10 @@
 - [Introduction](#Introduction)
 - [Project Overview](#Project-Overview)
 - [Data source](#Data-source)
-- [Problem Statement](#Problem-Statement)
 - [Tools used](#Tools-used)
 - [Data Analysis](#Data-Analysis)
 - [Visualisations](#Visualisations)
 - [Key Insights](Key-Insights)
-- [Visualisations](#Visualisations)
 - [Recommendations](#Recommendations)
 - [Conclusion](#Conclusion)
 
@@ -124,5 +122,7 @@ Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity
 
 This project demonstrates how structured analysis of e-commerce product data can reveal powerful insights into product positioning, consumer perception, and pricing dynamics. With the help of Excel Pivot Tables and calculated columns, we were able to transform raw listing data into strategic intelligence.
 
+### Back to top 
+###### [Table of Content](#Table-of-Content)
 
 
