@@ -54,34 +54,53 @@ This analysis includes:
   
 ### 2. 📐 Calculated Columns
 - `potential_revenue = actual_price * rating_count`
-- `discount_bucket` → Created ranges (e.g., `<50%`, `50–69%`, `70%+`)
-- `price_bucket` → Ranges like `<₹500`, `₹500–₹999`, `₹1000+`
 
 ### 3. 📈 Pivot Table Analysis
 
 #### Q1: Average Discount % by Category
-Grouped products by category and calculated average discount.
+Grouped products by category and calculated average discount by dragging category to rows and discount_percentage to values
+
 
 #### Q2: Product Count by Category
-Counted distinct products under each product category.
+Counted distinct products under each product category by dragging category to rows and product to values
 
 #### Q3: Total Reviews per Category
-Summed `rating_count` per category to identify engagement levels.
+Summed `rating_count` per category to identify engagement levels by dragging category to rows and rating count to values
 
 #### Q4: Products with Highest Ratings
-Ranked products by `rating`, filtering for top performers.
+Ranked products by `rating`, filtering for top performers by dragging product me to rows and rating to values, the sort from largest to smallest
+
+The top products with highest verge ratings are:
+
+Syncwire LTG to USB Cable for Fast Charging Compatible with Phone 5/ 5C/ 5S/ 6/ 6S/ 7/8/ X/XR/XS Max/ 11/12/ 13 Series and Pad Air/Mini, Pod & Other Devices (1.1 Meter, White)
+
+REDTECH USB-C to Lightning Cable 3.3FT, [Apple MFi Certified] Lightning to Type C Fast Charging Cord Compatible with iPhone 14/13/13 pro/Max/12/11/X/XS/XR/8, Supports Power Delivery - White
+
+Amazon Basics Wireless Mouse | 2.4 GHz Connection, 1600 DPI | Type - C Adapter | Upto 12 Months of Battery Life | Ambidextrous Design | Suitable for PC/Mac/Laptop
+
+![image](https://github.com/user-attachments/assets/30c7ef79-4ded-4646-9f99-e89894ab26e9)
+
 
 #### Q5: Average Price Comparison by Category
-Compared average `actual_price` vs `discounted_price` to evaluate pricing strategy.
+Compared average `actual_price` vs `discounted_price` to evaluate pricing strategy by dragging Category to rows and actual and discouted price to values. Then, the field setting is changed to average
 
 #### Q6: Products with Most Reviews
-Identified highly reviewed (popular) products.
+Identified highly reviewed (popular) products by dragging product name to rows and rating count to values. The sum is found automatically.
+
+
+The answer is
+AmazonBasics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot
+
+![image](https://github.com/user-attachments/assets/ceab28f5-e15a-42c2-a9e8-8d7367871f78)
+
 
 #### Q7: Products with ≥50% Discount
-Used conditional filter to count high-discounted items.
+Used conditional filter to count high-discounted items by using the formular =COUNTIF(F2:F466,">=50%")
+
+The answer is 465 products had  discount of greater than or equal to 50%
 
 #### Q8: Rating Distribution
-Grouped products by `rating` and counted frequency.
+Grouped products by `rating` and counted frequency by dragging rating to rows and product name to value(count)
 
 #### Q9: Potential Revenue by Category
 Calculated potential revenue using `actual_price * rating_count`.
