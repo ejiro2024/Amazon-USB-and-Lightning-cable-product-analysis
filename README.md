@@ -137,7 +137,7 @@ Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity
 
 ## Visualisations
 
-![image](https://drive.google.com/file/d/1hgL9GsKgF3MMB68LsGSiIozrjAQDcv2u/view?usp=drive_link)
+![dashboard1](dashboard1.PNG)
 
 ## Key Insights
 
