@@ -15,11 +15,11 @@
 - [Conclusion](#Conclusion)
 
   
-## 🧾 Introduction
+## Introduction
 This project focuses on analyzing Amazon product data for various USB and Lightning charging cables. The goal is to derive insights into pricing strategies, customer preferences, product performance, and user reviews to inform decision-making for manufacturers, marketers, or retailers.
 
 
-## 📁 Project Overview
+## Project Overview
 
 This analysis includes:
 - Cleaning and preprocessing raw data
@@ -29,7 +29,7 @@ This analysis includes:
 - Making data-driven recommendations
 
 
-## 🔗 Data Source
+## Data Source
 
 - Source: Product listing and review data were given by DSA
 - Format: Structured table with fields such as:
@@ -43,7 +43,7 @@ This analysis includes:
 
   
 
-## 📊 Data Analysis 
+## Data Analysis 
 
 ### 1. 📦 Data Cleaning
 - Removed blanks
@@ -137,7 +137,7 @@ Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity
 
 ## Visualisations
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Cables under ₹500 dominate** the market, especially from brands like pTron and Ambrane.
 - **Discounts of 60–90%** are common and play a key role in consumer choice.
@@ -146,7 +146,7 @@ Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity
 - Some categories consistently outperform others in both **reviews and revenue potential**.
 
 
-## ✅ Recommendations
+## Recommendations
 
 - **Bundle high-performing cables** into multipacks and promote them via review-based ads.
 - **Improve documentation and product clarity** for low-rated items.
@@ -154,7 +154,7 @@ Used formula: `rating * LOG10(rating_count + 1)` to balance quality and quantity
 - **Track review quality, not just quantity**, as some reviews mention quality defects despite high counts.
 
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how structured analysis of e-commerce product data can reveal powerful insights into product positioning, consumer perception, and pricing dynamics. With the help of Excel Pivot Tables and calculated columns, we were able to transform raw listing data into strategic intelligence.
 
