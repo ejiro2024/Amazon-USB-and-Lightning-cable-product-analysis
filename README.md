@@ -45,17 +45,17 @@ This analysis includes:
 
 ## Data Analysis 
 
-### 1. 📦 Data Cleaning
+### 1. Data Cleaning
 - Removed blanks
 - Checked for duplicate values
 - Removed redundant columns
 - Converted the dataset to a table
 
   
-### 2. 📐 Calculated Columns
+### 2. Calculated Columns
 - `potential_revenue = actual_price * rating_count`
 
-### 3. 📈 Pivot Table Analysis
+### 3. Pivot Table Analysis
 
 #### Q1: Average Discount % by Category
 Grouped products by category and calculated average discount by dragging category to rows and discount_percentage to values
