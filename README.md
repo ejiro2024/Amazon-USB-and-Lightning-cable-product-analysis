@@ -60,12 +60,19 @@ This analysis includes:
 #### Q1: Average Discount % by Category
 Grouped products by category and calculated average discount by dragging category to rows and discount_percentage to values
 
+![number1](number1.PNG)
 
 #### Q2: Product Count by Category
 Counted distinct products under each product category by dragging category to rows and product to values
 
+![que2](que2.PNG)
+
+
 #### Q3: Total Reviews per Category
 Summed `rating_count` per category to identify engagement levels by dragging category to rows and rating count to values
+
+![3](3.PNG)
+
 
 #### Q4: Products with Highest Ratings
 Ranked products by `rating`, filtering for top performers by dragging product me to rows and rating to values, the sort from largest to smallest
@@ -84,6 +91,9 @@ Amazon Basics Wireless Mouse | 2.4 GHz Connection, 1600 DPI | Type - C Adapter |
 #### Q5: Average Price Comparison by Category
 Compared average `actual_price` vs `discounted_price` to evaluate pricing strategy by dragging Category to rows and actual and discouted price to values. Then, the field setting is changed to average
 
+![5](5.PNG)
+
+
 #### Q6: Products with Most Reviews
 Identified highly reviewed (popular) products by dragging product name to rows and rating count to values. The sum is found automatically.
 
@@ -99,8 +109,13 @@ Used conditional filter to count high-discounted items by using the formular =CO
 
 The answer is 465 products had  discount of greater than or equal to 50%
 
+![7](7.PNG)
+
+
 #### Q8: Rating Distribution
 Grouped products by `rating` and counted frequency by dragging rating to rows and product name to value(count)
+
+![8](8.PNG)
 
 #### Q9: Potential Revenue by Category
 Calculated potential revenue using `actual_price * rating_count`.
